@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Will you be my Valentine?</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="card">
+    <h1 id="title">Will you be my Valentine?</h1>
+    <p id="subtitle">I already know the answer — but try to click "No" 😊</p>
+
+    <section class="photo-panel">
+      <img id="mainPhoto" src="images/photo1.jpg" alt="Our photo" />
+      <div class="thumbs">
+        <img class="thumb" src="images/photo1.jpg" alt="photo1" data-src="images/photo1.jpg" />
+        <img class="thumb" src="images/photo2.jpg" alt="photo2" data-src="images/photo2.jpg" />
+        <img class="thumb" src="images/photo3.jpg" alt="photo3" data-src="images/photo3.jpg" />
+      </div>
+    </section>
+
+    <div class="controls" id="controls">
+      <button id="yesBtn" class="btn yes">Yes 💖</button>
+      <button id="noBtn" class="btn no">No 😅</button>
+    </div>
+  </main>
+
+  <div id="overlay" class="overlay hidden">
+    <div class="popup">
+      <h2>She said YES! 🎉</h2>
+      <p>You're going to make her day ❤️</p>
+      <button id="closeOverlay" class="btn">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
